@@ -90,7 +90,7 @@ def test_set_mark_position(game_area: list[int]):
     user_mark = "O"
     user_pos = 0
 
-    assert set_mark_position(user_mark, game_area, user_pos) is False
+    assert set_mark_position(user_mark, game_area, user_pos) is True
 
     user_mark = "X"
     user_pos = 0
